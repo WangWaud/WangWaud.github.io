@@ -9,10 +9,20 @@ redirect_from:
 
 {% include base_path %}
 
+Personal details
+======
+Name: Zhe Wang
+Date of birth: September 9th, 2000
+E-mail: zhewang@webmail.hzau.edu.cn
+Directions: Plant-Microbe Interactions
+Address: Huazhong Agriculture University,
+         No.1, Shizishan Street, Hongshan District,
+         Wuhan, P.R. China, 430070.
+
 Education
 ======
-* B.S. in Wuhan, Huazhong Agricultural University, 2018.9-2022.6
-* M.S. in Wuhan, Huazhong Agricultural University, 2022.9 to now
+* Bachelor, in Wuhan, Huazhong Agricultural University(HZAU), 2018.09-2022.06
+* Master, in Wuhan, Huazhong Agricultural University(HZAU), 2022.09 to now
 * Ph.D haven't started
 
 Work experience
