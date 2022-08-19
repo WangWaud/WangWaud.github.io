@@ -18,7 +18,7 @@ Personal details
 * Address: Huazhong Agriculture University,
          No.1, Shizishan Street, Hongshan District,
          Wuhan, P.R. China, 430070.
-* Lab: Plant [Innate Immunity Laboratory]([url](http://www.plantimmunity.cn/)) of Kenichi Tsuda
+* Lab: Plant [Innate Immunity Laboratory]([http://www.plantimmunity.cn/]()) of Kenichi Tsuda
 
 Education
 ======
