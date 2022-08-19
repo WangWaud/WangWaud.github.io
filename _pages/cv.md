@@ -18,6 +18,7 @@ Personal details
 * Address: Huazhong Agriculture University,
          No.1, Shizishan Street, Hongshan District,
          Wuhan, P.R. China, 430070.
+* Lab: Plant [Innate Immunity Laboratory]([url](http://www.plantimmunity.cn/)) of Kenichi Tsuda
 
 Education
 ======
@@ -49,16 +50,6 @@ Project
 - **Supervisor**: Liangcai Peng (HZAU)
 - **Level**: Provincial College Students Innovation and Entrepreneurship Training Program
 - **Major**: 
-
-* 2019.03-2021.06 : Research Assistant
-  * Huazhong Agricultural University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Skills
 ======
