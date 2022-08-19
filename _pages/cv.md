@@ -53,7 +53,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-  
-Service and leadership
+Patent
 ======
-* Currently signed in to 43 different slack teams
+1. Utility model patent "A new type of device for separating and detecting ethanol concentration based on nano-bubble stone", Patent No. 202021958979.0
+
