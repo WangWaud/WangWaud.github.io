@@ -22,7 +22,7 @@ repository               : "WangWaud.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "MCW.png"
+  avatar           : "MCW.PNG"
   name             : "Mengcen Wang"
   pronouns         : # example: "he/his"  
   bio              : # "Short biography for the left-hand sidebar"
