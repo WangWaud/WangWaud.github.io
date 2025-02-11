@@ -1,14 +1,219 @@
 ---
-title: "Paper Title Number 1"
+title: "Publications till now"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: # /publication/2009-10-01-paper-title-number-1
+excerpt: # 'This paper is about the number 1. The number 2 is left for future work.'
+date: # 2009-10-01
+venue: # 'Journal 1'
+slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
+paperurl: # 'http://academicpages.github.io/files/paper1.pdf'
+citation: # 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+86. Lin L, Shen D, Shao X, Yang Y, Li L , Zhong C, Jiang J, Wang M, Qian G*. Soil microbiome bacteria protect plants against filamentous fungal infections via intercellular contacts. PNAS (2025). DOI: 10.1073/pnas.2418766122.
+
+85. Du G, Qian Z, Huang L, Wang M, Wang Q*. Physiologically based toxicokinetic and toxicodynamic (PBTK-TD) modelling of cis-bifenthrin in Carassius auratus and Xenopus laevis accounting for reproductive toxicity. Environmental Research (2024). DOI: 10.1016/j.envres.2024.120126.
+
+84. Fan X, Matsumoto H, Xu H, Fang H, Pan Q, Lv T, Zhan C, Feng X, Liu X, Su D, Fan M, Ma Z, Berg G, Li S*, Cernava T*, Wang M*. Aspergillus cvjetkovicii protects against phytopathogens through interspecies chemical signalling in the phyllosphere. Nature Microbiology (2024). DOI: 10.1038/s41564-024-01781-z. [view online]
+
+83. Wang B, Xu F, Zhang Z, Shen D, Wang L, Wu H, Yan Q, Cui C, Wang P, Wei Q, Shao X, Wang M, Guoliang Qian*. Type IV secretion system effector sabotages multiple defense systems in a competing bacterium. The ISME Journal (2024). https://doi.org/10.1093/ismejo/wrae121.
+
+82. Chen S, Lu X, Fang H,  Perumal A, Li R, Feng L, Wang M, Liu Y*. Early surveillance of rice Bakanae disease using deep learning and hyperspectral imaging. aBIOTECH (2024). https://doi.org/10.1007/s42994-024-00169-1.
+
+81. Zhan C, Wang M*. Disease resistance through M genes. Nature Plants (2024). https://doi.org/10.1038/s41477-024-01644-9. [view online]
+
+80. Pan Q, Lv T, Xu H, Fang H, Li M, Zhu J, Wang Y, Fan X, Xu P, Wang X, Wang Q, Matsumoto H*, Wang M*. Gut pathobiome mediates behavioral and developmental disorders in biotoxin-exposed amphibians. Environmental Science & Ecotechnology (2024). https://doi.org/10.1016/j.ese.2024.100415 [view online]
+
+79. Hu T#, Fang H#, Pan Q#, Xu H, Lv T, Fan X, Wang Y, Guo Y, Mou L, Xu J, Zhu J*, Matsumoto H*, Wang M*. Seed microbiome-mediated herbicide resistance evolution in weeds. New Phytologist (2024), 242: 333-343. https://doi.org/10.1111/nph.19459.  [view online]
+
+(入选亮点研究) [view online] 
+
+78. Li R, Chen S, Matsumoto H, Gouda M, Gafforov Y, Wang M*, Liu Y*. Advanced-technology-assisted prediction of plant disease: current view and future perspectives. aBIOTECH (2023). (封面论文) [view online]
+
+77. Gafforov Y..., Wang M, et al. Exploring biodiversity and ethnobotanical significance of Solanum species in Uzbekistan: unveiling the cultural wealth and ethnopharmacological uses. Frontiers in Pharmacology (2024),14(14):1287793. 
+
+76. Zhu J, Tao Q, Du G, Huang L, Li M, Wang M, Wang Q*. Mitochondrial dynamics disruption: Unraveling Dinotefuran's impact on cardiotoxicity. Environmental Pollution (2023). https://doi.org/10.1016/j.envpol.2023.123238.
+
+75. Gafforov Y..., Wang M, Abdullaev B, Bussmann R, Zengin G, Chen J*. Macrofungi as Medicinal Resources in Uzbekistan: Biodiversity, Ethnomycology, and Ethnomedicinal Practices. Journal of Fungi (2023), 9, 922. https://doi.org/10.3390/jof9090922. 
+
+74. Xing M, Wang W, Zhang C, Xi D, Wang M, Yin X, Liu H, Liu X*. Identification and functional analyses of the transcription factors AcWRKY117 and AcWRKY29 involved in waterlogging response in kiwifruit plant. Scientia Horticulturae (2023). https://doi.org/10.1016/j.scienta.2023.112568.
+
+73. Cheng X, Wang M, Yuan M, Li J, Xiong W. Editorial: Rhizosphere microbiome engineering for crop cultivation. Frontiers in Bioengineering and Biotechnology (2023). https://doi.org/10.3389/fbioe.2023.1267442.
+
+72. Lv T, Zhan C, Pan Q, Xu H, Fang H, Wang M*, Matsumoto M*. Plant pathogenesis: towards multidimensional understanding of microbiome. iMeta (2023). https://doi.org/10.1002/imt2.129  (封面论文) [view online] 
+
+71. Xue R, Liu S, Stirling E, Wang Y, Zhao K, Matsumoto H, Wang M, Xu J, Bin Ma*. Core community drives phyllosphere bacterial diversity and function in multiple ecosystems. Science of The Total Environment (2023). https://doi.org/10.1016/j.scitotenv.2023.165187. 
+
+70. Feng L, Chen S, Chu H, Zhang C, Hong Z, He Y, Wang M, Liu Y*. Machine-learning-facilitated prediction of heavy metal contamination in distiller's dried grains with solubles. Environmental Pollution (2023). 333, https://doi.org/10.1016/j.envpol.2023.122043.
+
+69. Wang M, Cernava T*. Soterobionts: Disease-preventing microorganisms and proposed strategies to facilitate their discovery. Current Opinion in Microbiology (2023).https://doi.org/10.1016/j.mib.2023.102349 
+
+68. Wang M*, Cernava T. Editorial: The Phyllosphere Microbiome. Frontiers in Plant Science (2023).
+
+67. Wang M*, Matsumoto H, Liu X. A 7-year path towards exploring a disease-suppressive arsenal. Nature Portfolio Microbiology Community (2023).
+
+(Behind the Paper, Phyllosphere microbiome induces host metabolic defence against rice false-smut disease. Nature Microbiology, DOI: 10.1038/s41564-023-01379-x). [view online]
+
+66. Liu X#, Matsumoto H#, Lv T, Zhan C, Fang H, Pan Q, Xu H, Fan X, Chu T, Chen S, Qiao K, Ma Y, Sun L, Wang Q, Wang M#,*. Phyllosphere microbiome induces host metabolic defence against rice false-smut disease. Nature Microbiology (2023). DOI: 10.1038/s41564-023-01379-x [view online] 
+
+(ESI高被引论文, 封面论文, Highlighted in Nature Reviews Microbiology) [view online] 
+
+(News& Views in Nature Plants) [view online] 
+
+(Highlighted in Nature Collection) [view online] 
+
+65. Zhan C,Wu M, Fang H, Liu X, Pan J, Fan X, Wang M*, Matsumoto H*.Characterization of the chemical fungicides-responsive and bacterial pathogen-preventing Bacillus licheniformis in rice spikelet. Food Quality and Safety (2023). https://doi.org/10.1093/fqsafe/fyad005.
+
+64. Zhan C, Matsumoto H, Liu Y, Wang M*. Pathways to engineering the phyllosphere microbiome for sustainable crop production. Nature Food (2022). DOI : 10.1038/s43016-022-00636-2. (ESI高被引论文) [view online]
+
+63. Olmo R*,...Wang M, Zwirzitz B, Selberherr E, Wagner M. Microbiome Research as an Effective Driver of Success Stories in Agrifood Systems – A Selection of Case Studies. Frontiers in Microbiology (2022),13:834622. DOI: 10.3389/fmicb.2022.834622.
+
+62. Zhou Y, Wang H, Xu S, Liu K, Qi H, Wang M, Chen X, Berg G, Ma Z, Cernava T*, Chen Y*. Bacterial-fungal interactions under agricultural settings: from physical to chemical interactions. Stress Biology (2022). https://doi.org/10.1007/s44154-022-00046-1.
+
+61. Xie H, Chen Z, Feng X, Wang M, Luo Y, Wang Y, Xu P*. L-theanine exuded from Camellia sinensis roots regulates element cycling in soil by shaping the rhizosphere microbiome assembly. Science of The Total Environment, 837, 2022, 155801. DOI: https://doi.org/10.1016/j.scitotenv.2022.155801.
+
+60. Li M, LiuT, Yang T, Zhu J, Zhou Y, Wang M, Wang Q*. Gut microbiota dysbiosis involves in host non-alcoholic fatty liver disease upon pyrethroid pesticide exposure. Environmental Science and Ecotechnology, 2022. DOI: https://doi.org/10.1016/j.ese.2022.100185  [view online] 
+
+59. Xu P, Stirling E, Xie H, Li W, Lv X, Matsumoto H, Cheng H, Xu A, Lai W, Wang Y, Zheng Z, Wang M*, Liu X, Ma B*, Xu J. Continental scale deciphering of microbiome networks untangles the phyllosphere homeostasis in tea plant. Journal of Advanced Research, 2022. DOI: https://doi.org/10.1016/j.jare.2022.04.002  (ESI高被引论文)  [view online]
+
+58. Matsumoto H, Cernava T, Wang M*.The seed’s hidden defense arsenal: using bacteria to defend against disease. The Science Breaker, 2022, DOI: 10.25250/thescbr.brk614. (Behind the Paper, Bacterial seed endophyte shapes disease resistance in rice. Nature Plants 7, 60-72) [view online]
+
+57. Matsumoto H, Qian Y, Fan X, Chen S, Nie Y, Qiao K, Xiang D, Zhang X, Li M, Guo B, Shen P, Wang Q, Yu L, Cernava T*, Wang M*. Reprogramming of phytopathogen transcriptome by a non-bactericidal pesticide residue alleviates its virulence in rice. Fundamental Research, 2022, 2, 198-207. DOI: 10.1016/j.fmre.2021.12.012.
+
+(封面论文) [view online] 
+
+(Science EurekAlert) [view online]
+
+56. Xu P, Fan X, Mao Y, Cheng H, Xu A, Lai W, Lv T, Hu Y, Nie Y, Zheng X, Meng Q, Wang Y, Cernava T*, Wang M*. Temporal metabolite responsiveness of microbiota in the tea plant phyllosphere promotes continuous suppression of fungal pathogens. Journal of Advanced Research, 2021, DOI: 10.1016/j.jare.2021.10.003 [view online]
+
+55. Chu H, Zhang C, Wang M, Gouda M, Wei X, He Y, Liu Y*. Hyperspectral imaging with shallow convolutional neural networks (SCNN) predicts the early herbicide stress in wheat cultivars. Journal of Hazardous Materials, 2021, DOI: 10.1016/j.jhazmat.2021.126706.
+
+54. Fan X, Fu Y, Nie Y, Matsumoto H, Wang Y, Hu T, Pan Q, Lv T, Fang H, Xu H, Wang Y, Ge H, Zhu G, Liu Y, Wang Q, Wang M*. Keystone taxa-mediated bacteriome response shapes the resilience of the paddy ecosystem to fungicide triadimefon contamination. Journal of Hazardous Materials, 2021, DOI: 10.1016/j.jhazmat.2021.126061.
+
+53. Yan R, Zhou Q, Xu Z, Wu Y, Zhu  G, Wang M, Guo Y, Dong K*, Chen M*. Pyrethrins elicit olfactory response and spatial repellency in Aedes albopictus. Pest Management Science, 2021 Apr 2. doi: 10.1002/ps.6390.
+
+52. Cao D, Wang F, Yu S, Dong S, Wu R, Cui N, Ren J, Xu T, Wang S, Wang M, Fang H, Yu Y*. Prevalence of azole-resistant Aspergillus fumigatus is highly associated with azole fungicide residues in the fields. Environmental Science & Technology, 2021, DOI: 10.1021/acs.est.0c03958.
+
+51. Matsumoto H, Fan X, Wang Y, Kusstatscher P, Duan J, Wu S, Chen S, Qiao K, Wang Y, Ma B, Zhu G, Hashidoko Y, Berg G, Cernava T*, Wang M*. Bacterial seed endophyte shapes disease resistance in rice. Nature Plants, 2021, DOI: 10.1038/s41477-020-00826-5.
+
+F1000最高推荐 [★★★] [view online]
+
+(ESI热点论文, ESI高被引论文, Cover Story, Science EurekAlert, Microbiome Digest – Bik's Picks, Science Daily) [view online]
+
+50. Wang M, Cernava T*. Overhauling the assessment of agrochemical-driven interferences with microbial communities for improved global ecosystem integrity. Environmental Science & Ecotechnology, 2020, 4. DOI: 10.1016/j.ese.2020.100061 
+
+(Editor's Choice, 封面论文, Frontispieces, Microbiome Digest – Bik's Picks) [view online]
+
+49. Xie H, Feng X, Wang M , Wang Y, Awasthi M, Xu P*. Implications of Endophytic Microbiota in Camellia sinensis: A Review on Current Understanding and Future Insights. Bioengineered, 2020, 11. DOI: 10.1080/21655979.2020.1816788.
+
+48.Qiu H, Zhao N, Zhou L, Wang M, Liang L, Fang H, He Y, Liu Y*. Vision-based moving obstacles detecting and tracking in paddy field using Improved Yolov3 and Deep SORT. Sensors, 2020, 20(15), 4082; https://doi.org/10.3390/s20154082.
+
+47. Zhang H, Zhang Q, Song J, Zhang Z, Chen S, Long Z, Wang M, Yu Y, Fang H*.Tracking resistomes, virulence genes, and bacterial pathogens in long-term manure-amended greenhouse soils. Journal of Hazardous Materials, 2020, 396, https://doi.org/10.1016/j.jhazmat.2020.122618.
+
+46. Sun Y, Cao Y, Tong L, Tao F, Wang X, Wu H*, Wang M*. Exposure to prothioconazole induces developmental toxicity and cardiovascular effects on zebrafish embryo. Chemosphere, 2020, 251, 126418.
+
+45. Fan X, Matsumoto H, Wang Y, Hu Y, Liu Y, Fang H,  Nitkiewicz B, Lau Y, Wang Q, Fang H, Wang M*. Microenvironmental interplay predominated by beneficial Aspergillus abates fungal pathogen incidence in paddy environment. Environmental Science & Technology, 2019, 53, 22, 13042-13052.
+
+44. Nie Y, Han X, Chen J, Wang M, Shen W*. The simulated N deposition accelerates net N mineralization and nitrification in a tropical forest soil. Biogeosciences, https://doi.org/10.5194/bg-16-1-2019.
+
+43. Sun X, Wang N, Li P, Jiang Z, Liu X, Wang M, Su Z, Zhang C, Lin F, Liang Y*. Endophytic fungus Falciphora oryzae promotes lateral root growth by producing indole derivatives after sensing plant signals. Plant, Cell & Environment, 2019, DOI: 10.1111/pce.13667. 
+
+42. Li M, Jiaping Zhu J, Wang M, Fang H, Zhu G, Wang Q*. Exposure to graphene oxide at environmental concentrations induces thyroid endocrine disruption and lipid metabolic disturbance in Xenopus laevis. Chemosphere, 2019, 236, 124834.
+
+41. Li M, Zhu J, Fang H, Wang M, Wang Q*, Zhou B. Coexposure to environmental concentrations of cis-bifenthrin and graphene oxide: adverse effects on the nervous system during metamorphic development of Xenopus laevis. Journal of Hazardous Materials, 2020, 381,120995. 
+
+40. Xiang D, Zhong L, Shen S, Song Z, Zhu G, Wang M, Wang Q*, Zhou B. Chronic exposure to environmental Levels of cis-bifenthrin: enantioselectivity and reproductive effects on zebrafish (Danio Rerio). Environmental Pollution, 2019, 251: 175-184. 
+
+39. Xiang D, Qiao K, Song Z, Shen S, Wang M, Wang Q*. Enantioselectivity of toxicological responses induced by maternal exposure of cis-bifenthrin enantiomers in zebrafish (Danio rerio) Larvae. Journal of Hazardous Materials, 2019, 371: 655-665. 
+
+38. Hu Y*, Chen Y#, Wei H#, Cheng Y*, Jiang B, Tong X, Olson A, Shen J, Song Q, Zhu L, Wang E, Zhong L, Wang M#. First report of Neofusicoccum parvum causing stem canker and necrosis of Phoebe sheareri in Zhejiang province, China. Plant Disease, 2019.
+
+
+37. 刘晓玉, 潘九月, MATSUMOTO Haruna, 范小艳, 林 婷, 钱 圆, 朱国念, 王蒙岑*. 稻曲病菌离体培养体系的构建与优化. 农药学学报. 2018, 20(1): 41-48.
+
+36. 陈颖, 陶芳怡, 刘训悦, 王蒙岑, 饶 琼, 顾丹璐, 吴慧明*. 螺虫乙酯对大型溞的急性和慢性毒性效应. 农药学学报. 2018, 20(1): 118-123.
+
+35. Liu X#, Fan X#, Matsumoto H, Nie Y, Sha Z, Yi K, Pan J, Qian Y, Cao M, Wang Y, Zhu G, Wang M*. Biotoxin tropolone contamination associated with nationwide occurrence of pathogen Burkholderia plantarii in agricultural environments in China. Environmental Science & Technology, 2018, 52, 9: 5105-5114. DOI: 10.1021/acs.est.7b05915. 
+
+(ACS Editors' Choice, 封面论文) [view online]
+
+34. Nie Y#, Wang M#, Zhang W, Ni Z, Hashidoko Y, Shen W*. Ammonium nitrogen content is a dominant predictor of bacterial community composition in an acidic forest soil with exogenous nitrogen enrichment. Science of the Total Environment,  2018, 624: 407-415. 
+
+33. Chen Y#, Wei H*, Du G, Zhu L, Song Q, Hu Y*, Wang E, Wang M#, Fan X. First report of Lasiodiplodia theobromae causing stem canker on common Fig (Ficus carica) in Zhejiang Province of China. Plant Disease,102(12):PDIS-05-18-0887. 
+
+32. Wu H, Rao Q, Zheng J, Mao C, Sun Y, Gu D, Wang M, Liu X*. Biochemical and histological alterations in adult zebra fish (Danio rerio) ovary following exposure to the tetronic acid insecticide spirotetramat. Ecotoxicology and Environmental Safety, 2018, 164: 149-154.
+
+
+31. 李文卓, 钱圆, Matsumoto Haruna, 杨斌, 王蒙岑*, 朱国念. 五氟磺草胺在稻田环境中的消解动态及残留特性. 农药学学报. 2017, 19(1): 61-67.
+
+30. 司芳芳, 郭逸蓉, 赵颖, 桂文君, 王蒙岑, 朱国念. 纳米标记免疫层析法在农药残留检测中的应用研究进展. 农药学学报. 2017,19(4): 409-417.
+
+29. 吴慧明, 陈颖, 胡婷婷, 顾丹璐, 王蒙岑, 饶琼, 刘训悦. 农药和重金属复合污染物对大型溞的毒性效应. 农药学学报. 2017,19(6): 716-722.
+
+28. Wang S, Liu Y, Jiao S, Zhao Y, Guo Y, Wang M*, Zhu G. Quantum dot-based lateral flow immunoassay for detection of neonicotinoid residues in tea leaves. Journal of Agricultural and Food Chemistry, 2017, 65(46): 10107-10114. 
+
+27. Wang M, Qian Y, Liu X, Wei P, Deng M, Wang L, Wu H, Zhu G*. Multiple spectroscopic analyses reveal the fate and metabolism of sulfamide herbicide triafamone in agricultural environments. Environmental Pollution, 2017, 230: 107-115. 
+
+26. Qian Y#, Matsumoto H#, Liu X#, Li S, Liang X, Liu Y, Zhu G, Wang M*. Dissipation, occurrence and risk assessment of a phenylurea herbicide tebuthiuron in sugarcane and aquatic ecosystems in South China. Environmental Pollution, 2017, 227: 389-396.
+
+
+25. Matsumoto H, 王蒙岑*, 桂文君, 郭逸蓉, 朱国念. 水稻病原菌Burkholderia plantarii群体感应和群体淬灭研究进展. 农药学学报, 2016, 18(3): 273-281.
+
+24. 刘雅楠, 李文卓, 魏鹏, 曹梦超, 赵颖, 王蒙岑*, 朱国念. 腈菌唑在豇豆及露地土壤中的沉积及消解特性. 生态与农村环境学报. 2016, 32(5): 832-836.
+
+23. 李文卓, 钱圆, Matsumoto Haruna, 刘晓玉, 秦丽, 王蒙岑*, 朱国念. 气相色谱-质谱检测蔬菜中氟吡菌酰胺及其代谢物残留. 农药学学报. 2016, 18(6): 759-764. 
+
+22. Qian Y, Matsumoto H, Li W, Zhu G, Hashidoko Y, Hu Y, Wang M*. Genome sequence of Burkholderia plantarii ZJ171, a tropolone producing bacterial pathogen responsible for rice seedling blight. Genome Announcements 2016, 4: e01318-01316.
+
+21. Wei P, Liu Y, Li W, Qian Y, Nie Y, Kim D, Wang M*. Metabolic and dynamic profiling for risk assessment of fluopyram, a typical phenylamide fungicide widely applied in vegetable ecosystem. Scientific Reports, 2016, 6: 33898. 
+
+20. Wang M*, Wei P, Cao M, Zhu L, Lu Y. First report of rice seedling blight caused by Burkholderia plantarii in North and Southeast China. Plant Disease, 2016,100:3, 645. 
+
+19. Wang M, Tachibana S, Murai Y, Li L, Sharon Y, Cao M, Zhu G, Hashimoto M, Hashidoko Y*. Indole-3-acetic acid produced by Burkholderia heleia acts as a phenylacetic acid antagonist to disrupt tropolone biosynthesis in Burkholderia plantarii. Scientific Reports, 2016, 6: 22596. 
+
+18. Nie Y, Li L, Isoda R, Wang M, Hatano R, Hashidoko Y*. Physiological and genotypic characteristic of nitrous oxide (N2O)-emitting Pseudomonas species isolated from dent corn andisol farmland in Hokkaido, Japan. Microbes and Environments, 2016, 31(2): 93–103. 
+
+17. Wang Q, Wei P, Cao M, Liu Y, Wang M, Guo Y*, Zhu G. Residual behavior and risk assessment of the mixed formulation of benzene kresoxim-methyl and fluazinam in cucumber field application. Environmental Monitoring and Assessment, 2016, 188:341. 
+
+
+16. 王全胜, 曹梦超, 刘雅楠, 魏鹏, 朱国念, 王蒙岑*. QuEChERS结合UPLC-ESI-MS/MS分析吡蚜酮和异丙威SC在稻田中的残留特征. 农业环境科学学报, 2015, 34(3): 431-437.
+
+15. 魏鹏, 曹梦超, 王全胜, 刘雅楠, 王蒙岑*, 朱国念. QuEChERS-PSA-气相色谱法分析联苯菊酯·啶虫脒微乳剂在茶园中的残留特征. 农业环境科学学报, 2015, 34(10): 2032-2038.
+
+14. Cao M, Li S, Wang Q, Wei P, Liu Y, Zhu G, Wang M*. Track of fate and primary metabolism of trifloxystrobin in rice paddy ecosystem. Science of The Total Environment, 2015, 518-519: 417-423. 
+
+13. Fu Y, Zheng Z, Wei P, Wang M*, Zhu G*, Liu Y*. Distribution of thifluzamide, fenoxanil and tebuconazole in rice paddy and dietary risk assessment. Toxicological & Environmental Chemistry. 2015, 98(1): 118-127. 
+
+12. Nie Y, Li L, Wang M, Tahvanainen T, Hashidoko Y*. Nitrous oxide emission potentials of Burkholderia species isolated from the leaves of a boreal peat moss Sphagnum fuscum. Bioscience, Biotechnology, and Biochemistry, 2015, 79(12): 2086-2095. 
+
+11. Li L, Wang M, Hatano R, Hashidoko Y*. Effects of methyl viologen dichloride and other chemicals on nitrous oxide (N2O) emission and repression by pseudomonad denitrifiers isolated from corn farmland soil in Hokkaido, Japan. Journal of Pesticide Science, 39(3): 115-120, 2014.
+
+10. 曹梦超, 王全胜, 王义虎, 赵颖, 刑家华, 王蒙岑, 朱国念. 氯氟氰虫酰胺在稻田环境中的残留及消解特性. 农药学学报, 2015,17(4): 447-454.
+
+9. 左晓霞, 张赫琼, 曹楚彦, 耿翠敏, 王蒙岑, 朱国念. 噻菌茂在稻田土壤中的微生物降解及对土壤细菌种群数量的影响. 农药学学报, 2014, 16(4): 467-471.
+
+8. 张赫琼, 付岩, 左晓霞, 曹楚彦, 王蒙岑, 张传清, 朱国念. 稻田土壤8种真菌对4种杀菌剂的敏感性分析. 农药学学报, 2014, 16(5): 529-534.
+
+7. 付岩, 王蒙岑*, 秦丽, 桂文君, 朱国念. 施药因子对三唑磷在水稻上残留沉积的影响. 农药学学报. 2013, 15(1): 79-84.
+
+6. Wang M, Hashimoto M, Hashidoko Y*. Carot-4-en-9,10-diol, a conidiation-inducing sesquiterpene diol produced by Trichoderma virens PS1-7 upon exposure to chemical stress from highly active iron chelators. Applied and Environmental Microbiology, 79(6): 1906-1914, 2013. 
+
+5. Wang M, Hashimoto M, Hashidoko Y*. Repression of tropolone production and induction of pseudo-biofilm in Burkholderia plantarii by carto-4-en-9,10-diol, a cell-to-cell signaling disrupter from Trichoderma virens. PLoS ONE, 8(11): e78024, 2013. 
+
+4. Wang M, Takayama T, Kim D, Sakihama Y, Tahara S, Hashidoko Y*. Effects of different classes of attractants, cochliophilin A and N-(E)-feruloyl-4-O-methyldopamine, on the response of Aphanomyces cochlioides zoospores in their chemoattraction and activation of motility linked with intracellular cAMP. Journal of Pesticide Science, 38(4): 1-7, 2013.
+
+
+3. 马有宁, 朱国念, 付岩, 吴慧明, 桂文君, 王蒙岑*. 模拟条件下三唑磷在稻田中的分布、迁移、消解及相关环境因子的影响. 农药学学报, 2012, 14(6): 635-640.
+
+2. 王蒙岑, 吴慧明, 秦丽, 朱国念. 乙嘧酚在黄瓜和土壤中的消解动态研究. 农业环境科学学报, 2009, 28(11): 2412-2416.
+
+1. 王蒙岑, 吴慧明, 刘少颖, 求银园, 朱烨操, 朱国念. 超高效液相色谱-串联质谱法分析乙螨唑在柑桔和土壤中的残留消解动态. 农药学学报, 2009, 11(4): 456-461. 
+
+
+
+# 著作
+
+•Yusufjon Gafforov, Sunil K. Deshmukh, Michal Tomšovský, Manzura Yarasheva, Mengcen Wang, and Sylvie Rapior. Irpex lacteus (Fr.) Fr. - IRPICACEAE. Ethnobiology of Uzbekistan Ethnomedicinal Knowledge of Mountain Communities [M]. Springer Nature, Switzerland, 2023: 1203-1215.   
+
+•王蒙岑*. 新型杀菌剂作用靶标群体感应系统的研究进展[C]. 中国青年植保科技创新. 中国植物保护学会青年工作委员会. 北京: 中国农业科学技术出版社, 2015: 314-317.
