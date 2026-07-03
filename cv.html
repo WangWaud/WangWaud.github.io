@@ -19,25 +19,31 @@
     <link rel="icon" type="image/jpeg" href="pics/Me.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Sora:wght@400;500;600;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=IBM+Plex+Mono:wght@500;600&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript>
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Sora:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=IBM+Plex+Mono:wght@500;600&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
     </noscript>
     <style>
         :root {
-            --bg: #edf4f7;
-            --bg-soft: #f8fbfd;
-            --panel: rgba(255, 255, 255, 0.72);
-            --panel-strong: rgba(247, 252, 255, 0.9);
-            --line: rgba(110, 148, 174, 0.2);
-            --line-strong: rgba(93, 146, 179, 0.28);
-            --text: #183247;
-            --text-muted: rgba(76, 101, 118, 0.86);
-            --text-faint: rgba(114, 137, 152, 0.84);
-            --accent: #2d8ebf;
-            --accent-warm: #0f4b68;
-            --shadow: 0 24px 80px rgba(123, 154, 179, 0.18);
-            --shadow-soft: 0 14px 38px rgba(123, 154, 179, 0.14);
+            --bg: #eef2e3;
+            --bg-soft: #fbfbf1;
+            --panel: rgba(255, 255, 244, 0.84);
+            --panel-strong: rgba(250, 251, 235, 0.94);
+            --line: rgba(74, 91, 54, 0.2);
+            --line-strong: rgba(74, 91, 54, 0.34);
+            --text: #172416;
+            --text-muted: rgba(46, 62, 39, 0.84);
+            --text-faint: rgba(86, 104, 74, 0.78);
+            --accent: #4f7d39;
+            --accent-strong: #244b2a;
+            --accent-warm: #9c6522;
+            --spore: #d6a334;
+            --pathogen: #8f3d2f;
+            --shadow: 0 22px 64px rgba(54, 70, 42, 0.14);
+            --shadow-soft: 0 12px 30px rgba(54, 70, 42, 0.11);
+            --radius-lg: 12px;
+            --radius-md: 10px;
+            --radius-sm: 8px;
             --transition: 220ms ease;
             --max-width: 1180px;
         }
@@ -53,13 +59,11 @@
         body {
             margin: 0;
             min-height: 100vh;
-            font-family: "Plus Jakarta Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            font-family: "IBM Plex Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
             color: var(--text);
             background:
-                radial-gradient(circle at 12% 18%, rgba(125, 201, 228, 0.26), transparent 24%),
-                radial-gradient(circle at 85% 12%, rgba(173, 223, 240, 0.22), transparent 24%),
-                radial-gradient(circle at 54% 78%, rgba(170, 202, 222, 0.2), transparent 28%),
-                linear-gradient(180deg, #f6fafc 0%, #edf4f7 40%, #e8f1f5 100%);
+                linear-gradient(115deg, rgba(79, 125, 57, 0.08) 0 18%, transparent 18% 100%),
+                linear-gradient(180deg, #fbfbf1 0%, #eef2e3 52%, #e7ecd7 100%);
             position: relative;
             overflow-x: hidden;
         }
@@ -75,14 +79,15 @@
 
         body::before {
             background:
-                linear-gradient(rgba(54, 88, 111, 0.05) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(54, 88, 111, 0.05) 1px, transparent 1px);
-            background-size: 36px 36px;
-            opacity: 0.18;
+                linear-gradient(rgba(74, 91, 54, 0.06) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(74, 91, 54, 0.05) 1px, transparent 1px),
+                repeating-linear-gradient(105deg, transparent 0 22px, rgba(79, 125, 57, 0.045) 22px 23px);
+            background-size: 42px 42px, 42px 42px, auto;
+            opacity: 0.42;
         }
 
         body::after {
-            background: radial-gradient(circle at center, transparent 0%, rgba(228, 239, 246, 0.2) 78%, rgba(220, 234, 242, 0.62) 100%);
+            background: linear-gradient(90deg, rgba(255, 255, 244, 0.2), rgba(221, 228, 198, 0.44));
             z-index: -1;
         }
 
@@ -115,7 +120,7 @@
         }
 
         .glass {
-            background: linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(247, 251, 253, 0.68));
+            background: linear-gradient(180deg, rgba(255, 255, 244, 0.88), rgba(245, 247, 226, 0.8));
             border: 1px solid var(--line);
             box-shadow: var(--shadow-soft);
             backdrop-filter: blur(12px);
@@ -132,7 +137,7 @@
             gap: 14px;
             margin-bottom: 22px;
             padding: 14px 18px;
-            border-radius: 999px;
+            border-radius: 12px;
         }
 
         .brand {
@@ -145,15 +150,15 @@
         .brand-mark {
             width: 40px;
             height: 40px;
-            border-radius: 14px;
+            border-radius: var(--radius-sm);
             display: grid;
             place-items: center;
-            background: linear-gradient(135deg, rgba(229, 243, 251, 0.98), rgba(193, 228, 244, 0.72));
-            border: 1px solid rgba(70, 144, 184, 0.22);
-            font-family: "Sora", "PingFang SC", sans-serif;
+            background: linear-gradient(135deg, rgba(214, 163, 52, 0.28), rgba(79, 125, 57, 0.14));
+            border: 1px solid rgba(74, 91, 54, 0.28);
+            font-family: "IBM Plex Mono", "PingFang SC", monospace;
             font-weight: 700;
             color: var(--accent-warm);
-            box-shadow: 0 12px 24px rgba(146, 190, 214, 0.22);
+            box-shadow: 0 12px 24px rgba(80, 104, 57, 0.12);
         }
 
         .brand-copy {
@@ -161,7 +166,7 @@
         }
 
         .brand-name {
-            font-family: "Sora", "PingFang SC", sans-serif;
+            font-family: "Fraunces", "Songti SC", "STSong", serif;
             font-size: 0.98rem;
             font-weight: 600;
             letter-spacing: 0.04em;
@@ -202,7 +207,7 @@
 
         .nav-links a:hover {
             color: var(--text);
-            background: rgba(45, 142, 191, 0.08);
+            background: rgba(79, 125, 57, 0.1);
             transform: translateY(-1px);
         }
 
@@ -216,7 +221,7 @@
             border: 1px solid transparent;
             padding: 8px 12px;
             border-radius: 999px;
-            background: rgba(255, 255, 255, 0.58);
+            background: rgba(255, 255, 244, 0.68);
             color: var(--text-faint);
             cursor: pointer;
             white-space: nowrap;
@@ -226,9 +231,9 @@
         .lang-switch button.active,
         .lang-switch button:hover {
             color: var(--text);
-            border-color: rgba(45, 142, 191, 0.22);
-            background: rgba(229, 243, 251, 0.98);
-            box-shadow: inset 0 0 0 1px rgba(45, 142, 191, 0.08);
+            border-color: rgba(79, 125, 57, 0.28);
+            background: rgba(232, 239, 204, 0.92);
+            box-shadow: inset 0 0 0 1px rgba(79, 125, 57, 0.1);
         }
 
         .hero {
@@ -237,7 +242,7 @@
             grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
             gap: 24px;
             padding: 32px;
-            border-radius: 34px;
+            border-radius: var(--radius-lg);
             overflow: hidden;
         }
 
@@ -245,25 +250,26 @@
         .hero::after {
             content: "";
             position: absolute;
-            border-radius: 999px;
-            filter: blur(10px);
+            border-radius: 0;
             pointer-events: none;
         }
 
         .hero::before {
-            width: 340px;
-            height: 340px;
-            top: -100px;
-            right: -30px;
-            background: radial-gradient(circle, rgba(123, 204, 234, 0.3), transparent 68%);
+            width: 54%;
+            height: 2px;
+            top: 24%;
+            right: -8%;
+            background: rgba(79, 125, 57, 0.24);
+            transform: rotate(-15deg);
         }
 
         .hero::after {
-            width: 360px;
-            height: 360px;
-            bottom: -160px;
-            left: -80px;
-            background: radial-gradient(circle, rgba(154, 191, 221, 0.22), transparent 68%);
+            width: 42%;
+            height: 2px;
+            bottom: 18%;
+            left: -5%;
+            background: rgba(156, 101, 34, 0.22);
+            transform: rotate(-15deg);
         }
 
         .hero-copy,
@@ -278,7 +284,7 @@
             gap: 10px;
             padding: 10px 16px;
             border-radius: 999px;
-            background: rgba(255, 255, 255, 0.62);
+            background: rgba(255, 255, 244, 0.72);
             color: var(--text-muted);
             border: 1px solid var(--line);
             font-size: 0.88rem;
@@ -291,16 +297,16 @@
             width: 8px;
             height: 8px;
             border-radius: 999px;
-            background: linear-gradient(135deg, var(--accent), #8bc9e5);
-            box-shadow: 0 0 18px rgba(123, 204, 234, 0.36);
+            background: var(--pathogen);
+            box-shadow: 0 0 0 4px rgba(143, 61, 47, 0.12);
         }
 
         .hero h1 {
             margin: 24px 0 14px;
-            font-family: "Sora", "PingFang SC", sans-serif;
+            font-family: "Fraunces", "Songti SC", "STSong", serif;
             font-size: clamp(3rem, 6vw, 5rem);
             line-height: 0.98;
-            letter-spacing: -0.06em;
+            letter-spacing: 0;
         }
 
         .hero h1 .line {
@@ -308,7 +314,7 @@
         }
 
         .hero h1 .highlight {
-            background: linear-gradient(135deg, #1b729e 0%, var(--accent) 60%, #63aed6 100%);
+            background: linear-gradient(135deg, var(--accent-warm) 0%, var(--accent) 64%, var(--spore) 100%);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
@@ -328,6 +334,37 @@
             gap: 12px;
         }
 
+        .dossier-strip {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 10px;
+            max-width: 760px;
+            margin-top: 22px;
+        }
+
+        .dossier-cell {
+            min-height: 74px;
+            padding: 12px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius-sm);
+            background: rgba(255, 255, 244, 0.62);
+        }
+
+        .dossier-code {
+            display: block;
+            margin-bottom: 7px;
+            font-family: "IBM Plex Mono", "PingFang SC", monospace;
+            font-size: 0.72rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--accent-warm);
+        }
+
+        .dossier-cell span:last-child {
+            color: var(--text-muted);
+            line-height: 1.45;
+        }
+
         .hero-button,
         .hero-button-ghost {
             display: inline-flex;
@@ -341,14 +378,14 @@
 
         .hero-button {
             color: #f8fcff;
-            background: linear-gradient(135deg, #216f98, #2f8fc6);
-            box-shadow: 0 16px 34px rgba(89, 150, 183, 0.22);
+            background: linear-gradient(135deg, var(--accent-strong), var(--accent));
+            box-shadow: 0 16px 34px rgba(54, 86, 40, 0.2);
         }
 
         .hero-button-ghost {
             color: var(--text);
-            border: 1px solid rgba(93, 146, 179, 0.28);
-            background: rgba(255, 255, 255, 0.58);
+            border: 1px solid rgba(74, 91, 54, 0.26);
+            background: rgba(255, 255, 244, 0.68);
         }
 
         .hero-button:hover,
@@ -358,13 +395,13 @@
 
         .hero-panel {
             padding: 22px;
-            border-radius: 28px;
+            border-radius: var(--radius-lg);
             display: flex;
             flex-direction: column;
             gap: 16px;
             background:
-                linear-gradient(180deg, rgba(251, 254, 255, 0.92), rgba(240, 248, 252, 0.84)),
-                radial-gradient(circle at top right, rgba(123, 204, 234, 0.18), transparent 38%);
+                linear-gradient(180deg, rgba(255, 255, 244, 0.94), rgba(239, 243, 219, 0.86)),
+                repeating-linear-gradient(145deg, transparent 0 18px, rgba(79, 125, 57, 0.045) 18px 19px);
             border: 1px solid var(--line-strong);
             box-shadow: var(--shadow);
             backdrop-filter: blur(14px);
@@ -382,16 +419,16 @@
             width: 108px;
             height: 108px;
             object-fit: cover;
-            border-radius: 26px;
-            border: 1px solid rgba(255, 255, 255, 0.8);
+            border-radius: var(--radius-md);
+            border: 1px solid rgba(255, 255, 244, 0.85);
             box-shadow: 0 18px 40px rgba(123, 157, 183, 0.2);
         }
 
         .profile-meta h2 {
             margin: 0 0 8px;
-            font-family: "Sora", "PingFang SC", sans-serif;
+            font-family: "Fraunces", "Songti SC", "STSong", serif;
             font-size: 1.85rem;
-            letter-spacing: -0.04em;
+            letter-spacing: 0;
         }
 
         .profile-role,
@@ -409,9 +446,9 @@
 
         .quick-card {
             padding: 14px;
-            border-radius: 18px;
-            border: 1px solid rgba(118, 154, 179, 0.18);
-            background: rgba(255, 255, 255, 0.54);
+            border-radius: var(--radius-sm);
+            border: 1px solid rgba(74, 91, 54, 0.18);
+            background: rgba(255, 255, 244, 0.62);
         }
 
         .quick-label {
@@ -445,16 +482,16 @@
 
         .metric-card {
             padding: 22px;
-            border-radius: 24px;
+            border-radius: var(--radius-md);
             backdrop-filter: none;
             -webkit-backdrop-filter: none;
         }
 
         .metric-value {
-            font-family: "Sora", "PingFang SC", sans-serif;
+            font-family: "Fraunces", "Songti SC", "STSong", serif;
             font-size: clamp(1.8rem, 3vw, 2.4rem);
             font-weight: 700;
-            letter-spacing: -0.05em;
+            letter-spacing: 0;
             margin-bottom: 10px;
         }
 
@@ -471,7 +508,7 @@
 
         .section-card {
             padding: 30px;
-            border-radius: 30px;
+            border-radius: var(--radius-lg);
             backdrop-filter: none;
             -webkit-backdrop-filter: none;
         }
@@ -494,9 +531,9 @@
 
         .section-title {
             margin: 0;
-            font-family: "Sora", "PingFang SC", sans-serif;
+            font-family: "Fraunces", "Songti SC", "STSong", serif;
             font-size: clamp(1.9rem, 3.4vw, 2.8rem);
-            letter-spacing: -0.05em;
+            letter-spacing: 0;
         }
 
         .section-desc {
@@ -512,23 +549,23 @@
 
         .cv-item {
             padding: 22px;
-            border-radius: 24px;
-            border: 1px solid rgba(118, 154, 179, 0.18);
-            background: rgba(255, 255, 255, 0.56);
+            border-radius: var(--radius-md);
+            border: 1px solid rgba(74, 91, 54, 0.18);
+            background: rgba(255, 255, 244, 0.64);
             transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
         }
 
         .cv-item:hover,
         .list-card:hover {
             transform: translateY(-4px);
-            border-color: rgba(45, 142, 191, 0.26);
-            box-shadow: 0 20px 50px rgba(124, 156, 182, 0.18);
+            border-color: rgba(79, 125, 57, 0.28);
+            box-shadow: 0 20px 50px rgba(54, 70, 42, 0.13);
         }
 
         .cv-item h3 {
             margin: 0 0 10px;
             font-size: 1.14rem;
-            letter-spacing: -0.03em;
+            letter-spacing: 0;
         }
 
         .date-pill {
@@ -537,7 +574,7 @@
             gap: 8px;
             padding: 7px 12px;
             border-radius: 999px;
-            background: rgba(229, 243, 251, 0.98);
+            background: rgba(232, 239, 204, 0.98);
             color: var(--accent-warm);
             font-size: 0.84rem;
             margin-bottom: 12px;
@@ -561,9 +598,9 @@
 
         .publication-year {
             margin: 0 0 12px;
-            font-family: "Sora", "PingFang SC", sans-serif;
+            font-family: "Fraunces", "Songti SC", "STSong", serif;
             font-size: 1.15rem;
-            letter-spacing: -0.03em;
+            letter-spacing: 0;
             color: var(--text);
         }
 
@@ -589,7 +626,7 @@
         .cv-item a:hover,
         .publication-list a:hover,
         .list-card a:hover {
-            color: #0f5d84;
+            color: var(--accent-strong);
         }
 
         .list-grid {
@@ -600,9 +637,9 @@
 
         .list-card {
             padding: 22px;
-            border-radius: 24px;
-            border: 1px solid rgba(118, 154, 179, 0.18);
-            background: rgba(255, 255, 255, 0.52);
+            border-radius: var(--radius-md);
+            border: 1px solid rgba(74, 91, 54, 0.18);
+            background: rgba(255, 255, 244, 0.6);
             transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
         }
 
@@ -614,7 +651,7 @@
         .footer {
             margin-top: 18px;
             padding: 20px 24px;
-            border-radius: 24px;
+            border-radius: var(--radius-md);
             color: var(--text-faint);
             display: flex;
             align-items: center;
@@ -635,8 +672,8 @@
             display: grid;
             place-items: center;
             color: #f8fcff;
-            background: linear-gradient(135deg, #216f98, #2f8fc6);
-            box-shadow: 0 18px 42px rgba(89, 150, 183, 0.22);
+            background: linear-gradient(135deg, var(--accent-strong), var(--accent));
+            box-shadow: 0 18px 42px rgba(54, 86, 40, 0.2);
             opacity: 0;
             visibility: hidden;
             transform: translateY(10px);
@@ -691,6 +728,10 @@
             .metrics {
                 grid-template-columns: repeat(2, minmax(0, 1fr));
             }
+
+            .dossier-strip {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
         }
 
         @media (max-width: 880px) {
@@ -701,7 +742,7 @@
 
             .topbar {
                 top: 10px;
-                border-radius: 26px;
+                border-radius: var(--radius-md);
                 padding: 14px;
                 flex-wrap: wrap;
                 justify-content: center;
@@ -744,6 +785,10 @@
             }
 
             .metrics {
+                grid-template-columns: 1fr;
+            }
+
+            .dossier-strip {
                 grid-template-columns: 1fr;
             }
 
@@ -821,6 +866,12 @@
                         <a class="hero-button" href="index.html"><span data-lang="en">Back to Homepage</span><span data-lang="zh">返回主页</span></a>
                         <a class="hero-button-ghost" href="https://scholar.google.com/citations?user=haQqxp4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
                         <a class="hero-button-ghost" href="https://orcid.org/0000-0003-3561-0354" target="_blank" rel="noopener noreferrer">ORCID</a>
+                    </div>
+                    <div class="dossier-strip" aria-label="CV dossier index">
+                        <div class="dossier-cell"><span class="dossier-code">Record 01</span><span data-lang="en">Education and supervision</span><span data-lang="zh">教育与导师</span></div>
+                        <div class="dossier-cell"><span class="dossier-code">Record 02</span><span data-lang="en">Research systems</span><span data-lang="zh">研究体系</span></div>
+                        <div class="dossier-cell"><span class="dossier-code">Record 03</span><span data-lang="en">Publications</span><span data-lang="zh">论文发表</span></div>
+                        <div class="dossier-cell"><span class="dossier-code">Record 04</span><span data-lang="en">Service and talks</span><span data-lang="zh">服务与报告</span></div>
                     </div>
                 </div>
 
@@ -1122,8 +1173,8 @@
                 <span data-lang="zh">© 2026 汪哲 | 学术简历</span>
             </div>
             <div>
-                <span data-lang="en">Last updated: April 17, 2026</span>
-                <span data-lang="zh">最后更新：2026年4月17日</span>
+                <span data-lang="en">Last updated: July 3, 2026</span>
+                <span data-lang="zh">最后更新：2026年7月3日</span>
             </div>
         </footer>
     </div>
