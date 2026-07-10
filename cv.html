@@ -11,39 +11,34 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://wangwaud.github.io/cv.html">
     <meta property="og:image" content="https://wangwaud.github.io/pics/Me.jpg">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Zhe Wang | Scientific CV">
     <meta name="twitter:description" content="Scientific CV of Zhe Wang, including publications, research experience, awards, academic service, and presentations.">
     <meta name="twitter:image" content="https://wangwaud.github.io/pics/Me.jpg">
     <link rel="canonical" href="https://wangwaud.github.io/cv.html">
-    <link rel="icon" type="image/jpeg" href="pics/Me.jpg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=IBM+Plex+Mono:wght@500;600&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript>
-        <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=IBM+Plex+Mono:wght@500;600&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    </noscript>
+    <link rel="icon" type="image/jpeg" href="pics/optimized/Me.jpg">
+    <script>document.documentElement.classList.add('js');</script>
     <style>
         :root {
-            --bg: #eef2e3;
-            --bg-soft: #fbfbf1;
-            --panel: rgba(255, 255, 244, 0.84);
-            --panel-strong: rgba(250, 251, 235, 0.94);
-            --line: rgba(74, 91, 54, 0.2);
-            --line-strong: rgba(74, 91, 54, 0.34);
-            --text: #172416;
-            --text-muted: rgba(46, 62, 39, 0.84);
-            --text-faint: rgba(86, 104, 74, 0.78);
-            --accent: #4f7d39;
-            --accent-strong: #244b2a;
-            --accent-warm: #9c6522;
-            --spore: #d6a334;
-            --pathogen: #8f3d2f;
-            --shadow: 0 22px 64px rgba(54, 70, 42, 0.14);
-            --shadow-soft: 0 12px 30px rgba(54, 70, 42, 0.11);
-            --radius-lg: 12px;
-            --radius-md: 10px;
-            --radius-sm: 8px;
+            --bg: #f2f6f3;
+            --bg-soft: #e6efe9;
+            --panel: rgba(255, 255, 255, 0.92);
+            --panel-strong: #ffffff;
+            --line: rgba(18, 57, 47, 0.2);
+            --line-strong: rgba(18, 57, 47, 0.4);
+            --text: #10221b;
+            --text-muted: rgba(45, 70, 59, 0.9);
+            --text-faint: rgba(77, 98, 88, 0.9);
+            --accent: #4f7b57;
+            --accent-strong: #12392f;
+            --accent-warm: #8b5c18;
+            --spore: #e4b94f;
+            --pathogen: #963f36;
+            --shadow: 0 18px 42px rgba(18, 57, 47, 0.08);
+            --shadow-soft: 0 8px 22px rgba(18, 57, 47, 0.07);
+            --radius-lg: 4px;
+            --radius-md: 3px;
+            --radius-sm: 2px;
             --transition: 220ms ease;
             --max-width: 1180px;
         }
@@ -54,16 +49,15 @@
 
         html {
             scroll-behavior: smooth;
+            scroll-padding-top: 104px;
         }
 
         body {
             margin: 0;
             min-height: 100vh;
-            font-family: "IBM Plex Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            font-family: "Avenir Next", "Helvetica Neue", Arial, "PingFang SC", sans-serif;
             color: var(--text);
-            background:
-                linear-gradient(115deg, rgba(79, 125, 57, 0.08) 0 18%, transparent 18% 100%),
-                linear-gradient(180deg, #fbfbf1 0%, #eef2e3 52%, #e7ecd7 100%);
+            background: linear-gradient(180deg, #f8faf9 0%, var(--bg) 54%, #e7efea 100%);
             position: relative;
             overflow-x: hidden;
         }
@@ -78,16 +72,12 @@
         }
 
         body::before {
-            background:
-                linear-gradient(rgba(74, 91, 54, 0.06) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(74, 91, 54, 0.05) 1px, transparent 1px),
-                repeating-linear-gradient(105deg, transparent 0 22px, rgba(79, 125, 57, 0.045) 22px 23px);
-            background-size: 42px 42px, 42px 42px, auto;
-            opacity: 0.42;
+            background: linear-gradient(90deg, transparent calc(50% - 1px), rgba(18, 57, 47, 0.035) 50%, transparent calc(50% + 1px));
+            opacity: 1;
         }
 
         body::after {
-            background: linear-gradient(90deg, rgba(255, 255, 244, 0.2), rgba(221, 228, 198, 0.44));
+            background: radial-gradient(circle at 9% 8%, rgba(228, 185, 79, 0.14), transparent 24rem);
             z-index: -1;
         }
 
@@ -103,6 +93,26 @@
 
         button {
             font: inherit;
+        }
+
+        :focus-visible {
+            outline: 3px solid var(--spore);
+            outline-offset: 4px;
+        }
+
+        .skip-link {
+            position: fixed;
+            top: 8px;
+            left: 8px;
+            z-index: 100;
+            padding: 10px 14px;
+            color: #fff;
+            background: var(--accent-strong);
+            transform: translateY(-150%);
+        }
+
+        .skip-link:focus {
+            transform: translateY(0);
         }
 
         [data-lang] {
@@ -155,7 +165,7 @@
             place-items: center;
             background: linear-gradient(135deg, rgba(214, 163, 52, 0.28), rgba(79, 125, 57, 0.14));
             border: 1px solid rgba(74, 91, 54, 0.28);
-            font-family: "IBM Plex Mono", "PingFang SC", monospace;
+            font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, "PingFang SC", monospace;
             font-weight: 700;
             color: var(--accent-warm);
             box-shadow: 0 12px 24px rgba(80, 104, 57, 0.12);
@@ -166,7 +176,7 @@
         }
 
         .brand-name {
-            font-family: "Fraunces", "Songti SC", "STSong", serif;
+            font-family: "Avenir Next Condensed", "Arial Narrow", "PingFang SC", sans-serif;
             font-size: 0.98rem;
             font-weight: 600;
             letter-spacing: 0.04em;
@@ -303,7 +313,7 @@
 
         .hero h1 {
             margin: 24px 0 14px;
-            font-family: "Fraunces", "Songti SC", "STSong", serif;
+            font-family: "Avenir Next Condensed", "Arial Narrow", "PingFang SC", sans-serif;
             font-size: clamp(3rem, 6vw, 5rem);
             line-height: 0.98;
             letter-spacing: 0;
@@ -353,7 +363,7 @@
         .dossier-code {
             display: block;
             margin-bottom: 7px;
-            font-family: "IBM Plex Mono", "PingFang SC", monospace;
+            font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, "PingFang SC", monospace;
             font-size: 0.72rem;
             letter-spacing: 0.08em;
             text-transform: uppercase;
@@ -426,7 +436,7 @@
 
         .profile-meta h2 {
             margin: 0 0 8px;
-            font-family: "Fraunces", "Songti SC", "STSong", serif;
+            font-family: "Avenir Next Condensed", "Arial Narrow", "PingFang SC", sans-serif;
             font-size: 1.85rem;
             letter-spacing: 0;
         }
@@ -488,7 +498,7 @@
         }
 
         .metric-value {
-            font-family: "Fraunces", "Songti SC", "STSong", serif;
+            font-family: "Avenir Next Condensed", "Arial Narrow", "PingFang SC", sans-serif;
             font-size: clamp(1.8rem, 3vw, 2.4rem);
             font-weight: 700;
             letter-spacing: 0;
@@ -531,7 +541,7 @@
 
         .section-title {
             margin: 0;
-            font-family: "Fraunces", "Songti SC", "STSong", serif;
+            font-family: "Avenir Next Condensed", "Arial Narrow", "PingFang SC", sans-serif;
             font-size: clamp(1.9rem, 3.4vw, 2.8rem);
             letter-spacing: 0;
         }
@@ -598,7 +608,7 @@
 
         .publication-year {
             margin: 0 0 12px;
-            font-family: "Fraunces", "Songti SC", "STSong", serif;
+            font-family: "Avenir Next Condensed", "Arial Narrow", "PingFang SC", sans-serif;
             font-size: 1.15rem;
             letter-spacing: 0;
             color: var(--text);
@@ -687,13 +697,13 @@
             transform: translateY(0);
         }
 
-        .reveal {
+        .js .reveal {
             opacity: 0;
             transform: translateY(22px);
             transition: opacity 700ms ease, transform 700ms ease;
         }
 
-        .reveal.is-visible {
+        .js .reveal.is-visible {
             opacity: 1;
             transform: translateY(0);
         }
@@ -703,8 +713,8 @@
                 scroll-behavior: auto;
             }
 
-            .reveal,
-            .reveal.is-visible,
+            .js .reveal,
+            .js .reveal.is-visible,
             .hero-button,
             .hero-button-ghost,
             .back-to-top,
@@ -714,7 +724,7 @@
                 transform: none;
             }
 
-            .reveal {
+            .js .reveal {
                 opacity: 1;
             }
         }
@@ -820,6 +830,7 @@
     </style>
 </head>
 <body>
+    <a class="skip-link" href="#main"><span data-lang="en">Skip to content</span><span data-lang="zh">跳到正文</span></a>
     <div class="page-shell">
         <header class="topbar glass">
             <div class="brand">
@@ -832,7 +843,7 @@
                     </div>
                 </div>
             </div>
-            <nav class="nav-links" aria-label="CV navigation">
+            <nav class="nav-links" aria-label="CV navigation" data-aria-en="CV navigation" data-aria-zh="学术简历导航">
                 <a href="#education"><span data-lang="en">Education</span><span data-lang="zh">教育</span></a>
                 <a href="#experience"><span data-lang="en">Experience</span><span data-lang="zh">经历</span></a>
                 <a href="#publications"><span data-lang="en">Publications</span><span data-lang="zh">论文</span></a>
@@ -841,13 +852,13 @@
                 <a href="#service"><span data-lang="en">Service</span><span data-lang="zh">服务</span></a>
                 <a href="#presentations"><span data-lang="en">Presentations</span><span data-lang="zh">报告</span></a>
             </nav>
-            <div class="lang-switch" aria-label="Language switcher">
-                <button type="button" id="cv-lang-en" class="active">EN</button>
-                <button type="button" id="cv-lang-zh">中文</button>
+            <div class="lang-switch" aria-label="Language switcher" data-aria-en="Language switcher" data-aria-zh="语言切换">
+                <button type="button" id="cv-lang-en" class="active" aria-pressed="true">EN</button>
+                <button type="button" id="cv-lang-zh" aria-pressed="false">中文</button>
             </div>
         </header>
 
-        <main>
+        <main id="main">
             <section class="hero glass reveal" id="top">
                 <div class="hero-copy">
                     <div class="eyebrow">
@@ -1173,13 +1184,13 @@
                 <span data-lang="zh">© 2026 汪哲 | 学术简历</span>
             </div>
             <div>
-                <span data-lang="en">Last updated: July 3, 2026</span>
-                <span data-lang="zh">最后更新：2026年7月3日</span>
+                <span data-lang="en">Last updated: July 10, 2026</span>
+                <span data-lang="zh">最后更新：2026年7月10日</span>
             </div>
         </footer>
     </div>
 
-    <a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">↑</a>
+    <a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top" data-aria-en="Back to top" data-aria-zh="返回顶部">↑</a>
 
     <script>
         (function () {
@@ -1189,16 +1200,23 @@
             const btnZh = document.getElementById("cv-lang-zh");
             const backToTopBtn = document.getElementById("backToTop");
             const revealEls = document.querySelectorAll(".reveal");
+            const ariaNodes = document.querySelectorAll("[data-aria-en][data-aria-zh]");
 
             function setLanguage(lang) {
                 root.setAttribute("data-language", lang);
                 root.setAttribute("lang", lang === "zh" ? "zh-CN" : "en");
-                localStorage.setItem(storageKey, lang);
+                try { localStorage.setItem(storageKey, lang); } catch (error) {}
                 btnEn && btnEn.classList.toggle("active", lang === "en");
                 btnZh && btnZh.classList.toggle("active", lang === "zh");
+                btnEn && btnEn.setAttribute("aria-pressed", String(lang === "en"));
+                btnZh && btnZh.setAttribute("aria-pressed", String(lang === "zh"));
+                ariaNodes.forEach(function (node) {
+                    node.setAttribute("aria-label", lang === "zh" ? node.dataset.ariaZh : node.dataset.ariaEn);
+                });
             }
 
-            const saved = localStorage.getItem(storageKey);
+            let saved = null;
+            try { saved = localStorage.getItem(storageKey); } catch (error) {}
             setLanguage(saved === "zh" ? "zh" : "en");
 
             btnEn && btnEn.addEventListener("click", function () {
