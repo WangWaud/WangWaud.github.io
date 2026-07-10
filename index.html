@@ -83,6 +83,7 @@
         img { display: block; max-width: 100%; }
         button { font: inherit; }
         [data-lang] { display: none; }
+        [data-lang-block] { display: none; }
         html[data-language="en"] [data-lang="en"],
         html[data-language="zh"] [data-lang="zh"] { display: inline; }
         html[data-language="en"] [data-lang-block="en"],
@@ -347,22 +348,6 @@
         }
         .publication-reflection p { margin: 0; }
         .publication-reflection p + p { margin-top: 9px; }
-        .reflection-cue {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin: -24px 0 28px;
-            padding: 12px 14px;
-            border: 1px solid rgba(228, 185, 79, .72);
-            background: rgba(228, 185, 79, .1);
-            color: #f4e4af;
-            font-size: .82rem;
-        }
-        .reflection-cue::before {
-            content: "✦";
-            color: var(--pollen);
-            font-family: var(--utility);
-        }
         .publication-action { align-self: start; justify-self: end; margin-top: 31px; color: var(--pollen); font-family: var(--utility); font-size: .7rem; font-weight: 800; text-transform: uppercase; }
         .work-footer { display: flex; justify-content: space-between; gap: 18px; margin-top: 28px; color: #c6d5cd; font-size: .82rem; }
         .work-footer a { color: white; border-bottom: 1px solid var(--pollen); font-weight: 800; }
@@ -479,8 +464,8 @@
             <div class="reveal">
                 <div class="eyebrow"><span data-lang="en">Phyllosphere ecology · Plant health</span><span data-lang="zh">叶际生态 · 植物健康</span></div>
                 <h1>
-                    <span data-lang-block="en"><span class="hero-line">Where plants,</span><span class="hero-line">pathogens</span><span class="hero-line">&amp; <span class="accent">microbes</span></span><span class="hero-line">meet.</span></span>
-                    <span data-lang-block="zh"><span class="hero-line">在植物、病原</span><span class="hero-line">与<span class="accent">微生物</span></span><span class="hero-line">相遇之处。</span></span>
+                    <span data-lang-block="en"><span class="hero-line">Where plants,</span><span class="hero-line">pathogens</span><span class="hero-line">&amp; <span class="accent">microbes</span></span><span class="hero-line">meet</span></span>
+                    <span data-lang-block="zh"><span class="hero-line">在植物、病原</span><span class="hero-line">与<span class="accent">微生物</span></span><span class="hero-line">相遇之处</span></span>
                 </h1>
                 <p class="hero-intro">
                     <span data-lang="en">I am a Ph.D. student in the Kenichi Tsuda lab at Huazhong Agricultural University. I combine multi-omics, microbial ecology, and mechanistic experiments to understand how microbial communities influence plant health and disease outcomes.</span>
@@ -523,7 +508,7 @@
         <section class="section" id="research">
             <div class="shell">
                 <div class="section-heading reveal">
-                    <div><div class="section-label">Research question</div><h2><span data-lang="en">A living interface under pressure.</span><span data-lang="zh">压力之下的生命界面。</span></h2></div>
+                    <div><div class="section-label">Research question</div><h2><span data-lang="en">A living interface under pressure</span><span data-lang="zh">压力之下的生命界面</span></h2></div>
                     <p class="section-lead"><span data-lang="en">My work asks how plants recruit, shape, or depend on microbial communities when pathogens enter the system—and how those relationships alter disease outcomes.</span><span data-lang="zh">我的研究关注：当病原进入系统后，植物如何招募、塑造或依赖微生物群落，以及这些关系如何改变病害结局。</span></p>
                 </div>
                 <div class="research-grid reveal">
@@ -556,10 +541,9 @@
             <section class="section" id="work">
                 <div class="shell">
                     <div class="section-heading reveal">
-                        <div><div class="section-label">Selected work</div><h2><span data-lang="en">Publications &amp; scientific commentary.</span><span data-lang="zh">论文与科学评论。</span></h2></div>
+                        <div><div class="section-label">Selected work</div><h2><span data-lang="en">Publications &amp; scientific commentary</span><span data-lang="zh">论文与科学评论</span></h2></div>
                         <p class="section-lead"><span data-lang="en">A focused selection of recent work, including my original reflection on the path behind each publication. The complete record is available on the Scientific CV page.</span><span data-lang="zh">以下为近期代表性成果，并保留我对每篇文章发表过程的原始感悟；完整发表记录见学术简历页面。</span></p>
                     </div>
-                    <div class="reflection-cue reveal"><span data-lang="en">Each entry below includes a clearly marked “My original reflection” section.</span><span data-lang="zh">每篇文章下方均设有明确标注的“我的原始感悟”区块。</span></div>
                     <div class="publication-list reveal">
                         <article class="publication">
                             <div class="publication-image"><img src="pics/optimized/2026_PCP.png" alt="Graphical abstract for the 2026 Plant and Cell Physiology commentary" loading="lazy" decoding="async" width="760" height="960"></div>
@@ -613,7 +597,7 @@
         <section class="section" id="capabilities">
             <div class="shell">
                 <div class="section-heading reveal">
-                    <div><div class="section-label">Methods</div><h2><span data-lang="en">From community data to mechanism.</span><span data-lang="zh">从群落数据到作用机制。</span></h2></div>
+                    <div><div class="section-label">Methods</div><h2><span data-lang="en">From community data to mechanism</span><span data-lang="zh">从群落数据到作用机制</span></h2></div>
                     <p class="section-lead"><span data-lang="en">An experimental and computational toolkit built around the biological question.</span><span data-lang="zh">围绕生物学问题组织实验与计算工具，而非让技术替代问题本身。</span></p>
                 </div>
                 <div class="capability-grid reveal">
@@ -628,7 +612,7 @@
         <section class="section" id="writing">
             <div class="shell">
                 <div class="section-heading reveal">
-                    <div><div class="section-label">Beyond papers</div><h2><span data-lang="en">Research made discussable.</span><span data-lang="zh">让研究可以被讨论。</span></h2></div>
+                    <div><div class="section-label">Beyond papers</div><h2><span data-lang="en">Research made discussable</span><span data-lang="zh">让研究可以被讨论</span></h2></div>
                     <p class="section-lead"><span data-lang="en">Alongside papers and conference work, I write public-facing research notes, commentary, and reflections in Chinese.</span><span data-lang="zh">除了论文与会议工作，我也持续用中文撰写面向公众的科研笔记、学术评论与个人思考。</span></p>
                 </div>
                 <div class="writing-grid reveal">
@@ -656,7 +640,7 @@
         </section>
 
         <section class="shell contact reveal" id="contact">
-            <div><div class="section-label">Continue</div><h2><span data-lang="en">Read the record.<br>Start a conversation.</span><span data-lang="zh">查看履历，<br>开始交流。</span></h2></div>
+            <div><div class="section-label">Continue</div><h2><span data-lang="en">Read the record<br>Start a conversation</span><span data-lang="zh">查看履历<br>开始交流</span></h2></div>
             <div class="contact-actions">
                 <a class="button primary" href="cv.html"><span data-lang="en">Open scientific CV</span><span data-lang="zh">查看学术简历</span></a>
                 <a class="button" href="mailto:zhewang@webmail.hzau.edu.cn">zhewang@webmail.hzau.edu.cn</a>
