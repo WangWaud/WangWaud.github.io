@@ -176,12 +176,18 @@
             max-width: 820px;
             margin: 20px 0 24px;
             font-family: var(--display);
-            font-size: clamp(4.2rem, 7.2vw, 7.7rem);
+            font-size: clamp(3.8rem, 5.35vw, 5.9rem);
             font-weight: 800;
-            letter-spacing: -.055em;
-            line-height: .88;
+            letter-spacing: -.045em;
+            line-height: .96;
         }
+        .hero-line { display: block; }
         .hero h1 .accent { color: var(--leaf); }
+        html[data-language="zh"] .hero h1 {
+            font-size: clamp(3.55rem, 5vw, 5.45rem);
+            letter-spacing: -.06em;
+            line-height: 1.05;
+        }
         .hero-intro { max-width: 690px; margin: 0; color: #2d463b; font-size: clamp(1.05rem, 1.5vw, 1.28rem); }
         .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 32px; }
         .button {
@@ -341,6 +347,22 @@
         }
         .publication-reflection p { margin: 0; }
         .publication-reflection p + p { margin-top: 9px; }
+        .reflection-cue {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: -24px 0 28px;
+            padding: 12px 14px;
+            border: 1px solid rgba(228, 185, 79, .72);
+            background: rgba(228, 185, 79, .1);
+            color: #f4e4af;
+            font-size: .82rem;
+        }
+        .reflection-cue::before {
+            content: "✦";
+            color: var(--pollen);
+            font-family: var(--utility);
+        }
         .publication-action { align-self: start; justify-self: end; margin-top: 31px; color: var(--pollen); font-family: var(--utility); font-size: .7rem; font-weight: 800; text-transform: uppercase; }
         .work-footer { display: flex; justify-content: space-between; gap: 18px; margin-top: 28px; color: #c6d5cd; font-size: .82rem; }
         .work-footer a { color: white; border-bottom: 1px solid var(--pollen); font-weight: 800; }
@@ -384,7 +406,7 @@
             .interface { min-height: 540px; }
             .research-grid { grid-template-columns: 1fr; }
             .publication { grid-template-columns: 150px 1fr; }
-            .publication-action { display: none; }
+            .publication-action { justify-self: start; margin-top: 0; }
             .capability-grid { grid-template-columns: repeat(2, 1fr); }
         }
         @media (max-width: 660px) {
@@ -395,7 +417,8 @@
             .nav { gap: 18px; }
             .nav a { font-size: .78rem; }
             .hero { padding: 62px 0 74px; gap: 44px; }
-            .hero h1 { font-size: clamp(3.35rem, 17vw, 5.2rem); }
+            .hero h1 { font-size: clamp(3.05rem, 14vw, 4.35rem); }
+            html[data-language="zh"] .hero h1 { font-size: clamp(2.9rem, 13vw, 4rem); }
             .hero-actions .button { width: 100%; }
             .interface { min-height: 500px; }
             .system-map { height: 330px; }
@@ -456,8 +479,8 @@
             <div class="reveal">
                 <div class="eyebrow"><span data-lang="en">Phyllosphere ecology · Plant health</span><span data-lang="zh">叶际生态 · 植物健康</span></div>
                 <h1>
-                    <span data-lang="en">Where plants, pathogens &amp; <span class="accent">microbes</span> meet.</span>
-                    <span data-lang="zh">在植物、病原与<span class="accent">微生物</span>相遇之处。</span>
+                    <span data-lang-block="en"><span class="hero-line">Where plants,</span><span class="hero-line">pathogens</span><span class="hero-line">&amp; <span class="accent">microbes</span></span><span class="hero-line">meet.</span></span>
+                    <span data-lang-block="zh"><span class="hero-line">在植物、病原</span><span class="hero-line">与<span class="accent">微生物</span></span><span class="hero-line">相遇之处。</span></span>
                 </h1>
                 <p class="hero-intro">
                     <span data-lang="en">I am a Ph.D. student in the Kenichi Tsuda lab at Huazhong Agricultural University. I combine multi-omics, microbial ecology, and mechanistic experiments to understand how microbial communities influence plant health and disease outcomes.</span>
@@ -534,8 +557,9 @@
                 <div class="shell">
                     <div class="section-heading reveal">
                         <div><div class="section-label">Selected work</div><h2><span data-lang="en">Publications &amp; scientific commentary.</span><span data-lang="zh">论文与科学评论。</span></h2></div>
-                        <p class="section-lead"><span data-lang="en">A focused selection of recent work. The complete publication record is available on the Scientific CV page.</span><span data-lang="zh">以下为近期代表性成果；完整发表记录见学术简历页面。</span></p>
+                        <p class="section-lead"><span data-lang="en">A focused selection of recent work, including my original reflection on the path behind each publication. The complete record is available on the Scientific CV page.</span><span data-lang="zh">以下为近期代表性成果，并保留我对每篇文章发表过程的原始感悟；完整发表记录见学术简历页面。</span></p>
                     </div>
+                    <div class="reflection-cue reveal"><span data-lang="en">Each entry below includes a clearly marked “My original reflection” section.</span><span data-lang="zh">每篇文章下方均设有明确标注的“我的原始感悟”区块。</span></div>
                     <div class="publication-list reveal">
                         <article class="publication">
                             <div class="publication-image"><img src="pics/optimized/2026_PCP.png" alt="Graphical abstract for the 2026 Plant and Cell Physiology commentary" loading="lazy" decoding="async" width="760" height="960"></div>
@@ -545,7 +569,7 @@
                                 <p class="publication-citation"><strong>Wang Z*</strong>. <em>Plant and Cell Physiology</em>, pcag004.</p>
                                 <p class="publication-note"><span data-lang="en">Host-mediated endophyte–pathogen competition and asymptomatic fungal colonization.</span><span data-lang="zh">聚焦宿主介导的内生真菌–病原竞争与无症状真菌定殖。</span></p>
                                 <div class="publication-reflection">
-                                    <span class="publication-reflection-label"><span data-lang="en">Context &amp; reflection</span><span data-lang="zh">背景与感悟</span></span>
+                                    <span class="publication-reflection-label"><span data-lang="en">My original context &amp; reflection</span><span data-lang="zh">我的原始背景与感悟</span></span>
                                     <p><span data-lang="en">This article comments on Kei Hiruma, Kuldanai Pathompitaknukul, Hiroyuki Tanaka, Yuki Iwaguchi, Shunsuke Miyashima, Nanami Kawamura, Atsushi Toyoda, Takehiko Itoh, and Yusuke Saijo, “Host-mediated endophyte-pathogen competition in roots enables asymptomatic fungal colonization in <em>Arabidopsis thaliana</em>,” <em>Plant and Cell Physiology</em>, 2025, pcaf126.</span><span data-lang="zh">这篇文章是对 Kei Hiruma、Kuldanai Pathompitaknukul、Hiroyuki Tanaka、Yuki Iwaguchi、Shunsuke Miyashima、Nanami Kawamura、Atsushi Toyoda、Takehiko Itoh 和 Yusuke Saijo 论文的 Commentary，主题是根部内生真菌与病原在宿主介导下的竞争如何帮助 <em>Arabidopsis thaliana</em> 实现无症状真菌定殖。</span></p>
                                     <p><span data-lang="en">The manuscript went through repeated revisions and a winding path before publication. With Ken's support, it was eventually published under my sole authorship, which made it especially meaningful to me.</span><span data-lang="zh">这篇稿件经历了反复修改与颇为曲折的发表过程，最终在 Ken 的支持下以我唯一作者的身份发表，因此对我而言格外重要。</span></p>
                                 </div>
@@ -560,7 +584,7 @@
                                 <p class="publication-citation"><strong>Wang Z</strong>, Yin JK, Tsuda K*. <em>Crop Health</em>, 3(1):6.</p>
                                 <p class="publication-note"><span data-lang="en">A perspective on sustainable phyllosphere microbiome engineering.</span><span data-lang="zh">关于可持续叶际微生物组工程的科学评论。</span></p>
                                 <div class="publication-reflection">
-                                    <span class="publication-reflection-label"><span data-lang="en">Reflection</span><span data-lang="zh">发表感悟</span></span>
+                                    <span class="publication-reflection-label"><span data-lang="en">My original reflection</span><span data-lang="zh">我的原始感悟</span></span>
                                     <p><span data-lang="en">Originally developed from a Ph.D. course assignment, then refined into a Spotlight-style commentary and eventually published in <em>Crop Health</em>.</span><span data-lang="zh">这篇工作最初来源于博士课程作业，随后被打磨成 Spotlight 风格的评论文章，最终发表在 <em>Crop Health</em>。</span></p>
                                 </div>
                             </div>
@@ -574,7 +598,7 @@
                                 <p class="publication-citation">Nakagami S#, <strong>Wang Z#</strong>, Han XW, Tsuda K*. <em>Annual Review of Phytopathology</em>, 62:12.1–12.28.</p>
                                 <p class="publication-note"><span data-lang="en">How host plants regulate bacterial growth and behavior.</span><span data-lang="zh">宿主植物如何调控细菌生长与行为。</span></p>
                                 <div class="publication-reflection">
-                                    <span class="publication-reflection-label"><span data-lang="en">Reflection</span><span data-lang="zh">发表感悟</span></span>
+                                    <span class="publication-reflection-label"><span data-lang="en">My original reflection</span><span data-lang="zh">我的原始感悟</span></span>
                                     <p><span data-lang="en">My first paper published as a co-first author, centered on how host plants regulate bacterial growth and behavior.</span><span data-lang="zh">这是我第一次以共同第一作者身份发表的论文，聚焦宿主植物如何调控细菌生长与行为。</span></p>
                                 </div>
                             </div>
